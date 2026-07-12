@@ -250,9 +250,9 @@ Path-based-transformer-with-quatization/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/username/EdgeViT-HAR.git
+git clone https://github.com/AASIFRASHIDKHANDAY/PATH BASED TRANSFORMER WITH QUANTIZATION.git
 
-cd EdgeViT-HAR
+cd PATH BASED TRANSFORMER WITH QUANTIZATION
 ```
 
 Install dependencies
