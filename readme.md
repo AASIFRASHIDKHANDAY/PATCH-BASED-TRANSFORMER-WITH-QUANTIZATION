@@ -1,4 +1,4 @@
-# Edge-Efficient Human Activity Recognition Using a Quantized Patch-Based Transformer
+# Edge Efficient Human Activity Recognition Using a Quantized Patch Based Transformer
 <p align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
@@ -15,7 +15,7 @@
 
 This repository contains the implementation, trained models, experimental results, and TensorFlow Lite benchmarks for the research paper:
 
-> **"Edge-Efficient Human Activity Recognition Using a Quantized Patch-Based Transformer"**
+> **"Edge Efficient Human Activity Recognition Using a Quantized Patch Based Transformer"**
 
 The proposed framework introduces a **compact end-to-end patch-based Transformer architecture** specifically designed for **Human Activity Recognition (HAR)** in **edge computing environments**, where computational resources, memory, and inference latency are limited.
 
