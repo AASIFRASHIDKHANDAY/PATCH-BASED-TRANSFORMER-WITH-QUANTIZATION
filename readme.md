@@ -28,6 +28,10 @@ Unlike conventional Transformer models, our approach combines:
 - ✅ Edge Deployment Benchmarking
 
 to achieve an excellent balance between **recognition performance** and **computational efficiency**.
+The overview of the entire methodology incororated in the work is shown below:
+
+![Alt text](new_methodology_diagram.tif)
+
 
 ---
 
