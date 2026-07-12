@@ -39,7 +39,7 @@ The overview of the entire methodology incororated in the work is shown below:
 
 **Paper Title**
 
-> **Lightweight Patch-Based Transformer for Efficient Human Activity Recognition on Resource-Constrained Edge Devices**
+> **Edge-Efficient Human Activity Recognition Using a Quantized Patch-Based Transformer**
 
 **Authors**
 
