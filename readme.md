@@ -30,7 +30,7 @@ Unlike conventional Transformer models, our approach combines:
 to achieve an excellent balance between **recognition performance** and **computational efficiency**.
 The overview of the entire methodology incororated in the work is shown below:
 
-![Alt text](new_methodology_diagram.tif)
+![Alt text](methodology_overview_transfromer_paper.png)
 
 
 ---
