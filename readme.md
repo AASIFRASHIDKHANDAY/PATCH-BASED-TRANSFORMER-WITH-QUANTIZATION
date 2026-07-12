@@ -234,9 +234,10 @@ Path-based-transformer-with-quatization/
 │   └── Quantized model/
 │
 ├── results/
-│   ├── Baseline model performance/
-│   ├── Quantized model performance/
-│   └── TFLite/
+│   ├── WISDM/
+│   ├── PAMAP2/
+|
+|──models
 │
 ├── Ablation study/
 │
