@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This repository contains the implementation, trained models, experimental results, and TensorFlow Lite benchmarks for the research paper:
 
@@ -21,21 +21,21 @@ The proposed framework introduces a **compact end-to-end patch-based Transformer
 
 Unlike conventional Transformer models, our approach combines:
 
-- ✅ Temporal Patch Embedding
-- ✅ Lightweight Multi-Head Self-Attention
-- ✅ Compact Transformer Encoder
-- ✅ TensorFlow Lite Quantization
-- ✅ Edge Deployment Benchmarking
+-  Temporal Patch Embedding
+-  Lightweight Multi-Head Self-Attention
+-  Compact Transformer Encoder
+-  TensorFlow Lite Quantization
+-  Edge Deployment Benchmarking
 
 to achieve an excellent balance between **recognition performance** and **computational efficiency**.
-The overview of the entire methodology incororated in the work is shown below:
+The overview of the entire methodology incorporated in the work is shown below:
 
 ![Alt text](methodology_overview_transfromer_paper.png)
 
 
 ---
 
-# 📑 Related Publication
+#  Related Publication
 
 **Paper Title**
 
@@ -47,19 +47,19 @@ Aasif Rashid Khanday, et al.
 
 ---
 
-# 🎯 Key Contributions
+#  Key Contributions
 
-✨ **Novel Lightweight Patch-Based Transformer**
+ **Novel Lightweight Patch-Based Transformer**
 
 - End-to-end Transformer architecture designed specifically for wearable sensor HAR.
 
-✨ **Architectural Ablation Study**
+ **Architectural Ablation Study**
 
 - Effect of different temporal patch lengths
 - Different Transformer encoder depths
 - Trade-off analysis between accuracy and efficiency
 
-✨ **TensorFlow Lite Deployment**
+ **TensorFlow Lite Deployment**
 
 Four deployment-ready formats:
 
@@ -68,7 +68,7 @@ Four deployment-ready formats:
 - INT8 Dynamic Range
 - INT8 Full Integer
 
-✨ **Edge Benchmarking**
+ **Edge Benchmarking**
 
 Comprehensive evaluation of:
 
@@ -80,7 +80,7 @@ Comprehensive evaluation of:
 
 ---
 
-# 🧠 Model Architecture
+#  Model Architecture
 
 ```
 Raw Sensor Signals
@@ -113,7 +113,7 @@ Predicted Activity
 
 ---
 
-# 📊 Datasets
+#  Datasets Used
 
 The proposed framework has been evaluated on two widely used benchmark HAR datasets.
 
@@ -124,16 +124,16 @@ The proposed framework has been evaluated on two widely used benchmark HAR datas
 
 The dataset is publicly available and can be downloaded from the following links:
 
-🔗 ((https://www.cis.fordham.edu/wisdm/dataset.php))
-🔗 ((https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring))
+1. 🔗 ((https://www.cis.fordham.edu/wisdm/dataset.php))
+2. 🔗 ((https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring))
 
-Please download the dataset from port and place it in the appropriate directory before running the code.
+Please download the dataset from the respective portals and place it in the appropriate directory before running the code.
 
-For complete details regarding the acquisition protocol, tasks, and experimental design, refer to the dataset paper.
+For complete details regarding the acquisition protocol, tasks, and experimental design, refer to the concerned dataset paper.
 
 ---
 
-# ⚙️ Data Preprocessing
+#  Data Preprocessing
 
 The raw sensor streams undergo the following pipeline before training:
 
@@ -161,7 +161,7 @@ Transformer Input
 
 ---
 
-# 🔬 Experimental Study
+#  Experimental Study
 
 We systematically investigate the influence of
 
@@ -179,7 +179,7 @@ on
 
 ---
 
-# 📦 TensorFlow Lite Quantization
+#  TensorFlow Lite Quantization
 
 The trained model is converted into multiple deployment formats.
 
@@ -192,7 +192,7 @@ The trained model is converted into multiple deployment formats.
 
 ---
 
-# 📈 Performance Highlights
+#  Performance Highlights
 
 ## WISDM
 
@@ -216,7 +216,7 @@ The trained model is converted into multiple deployment formats.
 
 ---
 
-# 🏆 Main Findings
+#  Main Findings
 
 ✔ Moderate temporal patching provides the best trade-off between computational cost and recognition performance.
 
@@ -250,7 +250,7 @@ Path-based-transformer-with-quatization/
 
 ---
 
-# 🚀 Getting Started
+#  Getting Started
 
 ## Clone Repository
 
@@ -286,7 +286,7 @@ python quantize.py
 
 ---
 
-# 📊 Experimental Results
+#  Experimental Results
 
 The repository includes:
 
@@ -302,7 +302,7 @@ The repository includes:
 
 ---
 
-# 💻 Edge Deployment
+#  Edge Deployment
 
 The exported TensorFlow Lite models are optimized for:
 
@@ -315,7 +315,7 @@ The exported TensorFlow Lite models are optimized for:
 
 ---
 
-# ⭐ Acknowledgements
+#  Acknowledgements
 
 This work utilizes the publicly available:
 
@@ -326,14 +326,14 @@ We thank the authors for making these benchmark datasets publicly accessible.
 
 ---
 
-# 📧 Contact
+#  Contact
 
 **Aasif Rashid Khanday**
 
 Department of Computer Science,
 Jamia Millia Islamia, New Delhi, India
 
-📩 aasifrashidkhanday@gmail.com
+ aasifrashidkhanday@gmail.com
 
 For questions, suggestions, or collaborations, feel free to open an Issue or submit a Pull Request.
 
@@ -341,7 +341,7 @@ For questions, suggestions, or collaborations, feel free to open an Issue or sub
 
 <div align="center">
 
-### ⭐ If you find this repository useful, please consider giving it a star!
+###  If you find this repository useful, please consider giving it a star!
 
 **Advancing Lightweight AI for Edge Intelligence**
 
